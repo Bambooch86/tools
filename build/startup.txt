@@ -1,0 +1,6 @@
+# 1, Type
+crontab -e
+
+# 2, Add following text
+## m h  dom mon dow   command
+ 5 2 * * * /home/builder/bin/auto-build.sh
